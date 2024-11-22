@@ -1,0 +1,16 @@
+.recursive-mainTitle {
+    font-family: "Recursive", serif;
+    font-optical-sizing: auto;
+    font-weight: 904;
+    font-style: normal;
+    line-height: 1.25 !important;
+    letter-spacing: -.025em;
+    font-variation-settings:
+      "slnt" 0,
+      "CASL" 0.31,
+      "CRSV" 0.5,
+      "MONO" 0;
+  }
+  .recusive-style{
+    font-family: "Recursive", serif;
+  }
