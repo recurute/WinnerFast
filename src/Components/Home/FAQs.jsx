@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const FAQItem = ({ question, answer, isOpen, onClick }) => {
     return (
-        <div className={`rounded-xl  overflow-hidden  transition-all ${isOpen ? '' : ''}`}>
+        <div id="faqs" className={`rounded-xl  overflow-hidden  transition-all ${isOpen ? '' : ''}`}>
             <button
                 className={`w-full recusive-style text-left p-6 flex items-center justify-between rounded-xl transition-colors duration-300 ${isOpen ? 'bg-orange-600 text-white' : 'bg-white hover:bg-gray-50'}`}
                 onClick={onClick}
